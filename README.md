@@ -12,3 +12,6 @@ This repository is make for to study the Design Patterns in Java language.Each o
 - **Prototype:** This pattern looks for the responsibility of creating a copy of an object to fall directly on the object to be copied instead of the constructor class, avoiding that dependency. It can be achieved by generating an interface with a clone method that returns an object from this same interface and is implemented in the class that creates the object that we want to clone.
 
 - **Abstract Factory:** This is an extension of the factory method patterns. It is different in creating many objects of the same family. To do this, interfaces or abstract classes are used to isolate the factory classes and the products. Concrete factories of a family of products are created.
+
+### Structural
+- **Adapter:** The function of this pattern is solvated that two classes with incompatible interfaces can be used. In this case, we have a Round Hole class that is a form circular, and we have a Square peg record with form square. The Square class implement width method, while the Round Hole class consume get Radio. For solvent this problem, to create a Square Adapter class that extend Square Record and add getRadio method, taking over the delivery of the getRadio method to Round Hole class.
