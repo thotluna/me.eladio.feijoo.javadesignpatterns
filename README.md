@@ -15,7 +15,7 @@ This repository is make for to study the Design Patterns in Java language.Each o
 
 ### Structural
 - **Adapter:** The function of this pattern is solvated that two classes with incompatible interfaces can be used. In this case, we have a Round Hole class that is a form circular, and we have a Square peg record with form square. The Square class implement width method, while the Round Hole class consume get Radio. For solvent this problem, to create a Square Adapter class that extend Square Record and add getRadio method, taking over the delivery of the getRadio method to Round Hole class.
-- 
+
 - **Bridge:** It is about separating the abstraction from the implementation. In this case, we have a TV and a smart remote control. By implementing an abstract remote class that implements the common functions of a remote control and making the device interface an attribute of this class, it allows us to extend many types of equipment by many types of remote controls.
 
 - **Composite** When working with tree data structures and the elements have a common interface, this pattern can be used. In our case, we have a series of products that are stored in boxes that in turn can be stored in other boxes. All items have a total price, that is, each product has a price and the products in a box keep a total price. That is why a Salable interface is created and an ArrayList<Saleable> type attribute is placed in the box to be able to save the list of products and boxes within it.
